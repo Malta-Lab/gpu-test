@@ -11,7 +11,10 @@ Script para rodar e testar a gpu do laboratório MALTA.
 
 ## 2. Passo
 * Fechar o terminal e abrir um novo.
-* No novo terminal escrever o seguinte comando: `conda activate test`
+* No novo terminal escrever o seguinte comando: `conda activate test`.
+* O terminal deve agora ter a anotação `(test)` antes do nome do usuário.
 
 ## 3. Passo
-* Começar a rodar a rede neural para treinamento usando o seguinte comando
+* Começar a treinar a rede neural usando o seguinte comando no mesmo terminal aberto anteriormente:
+  * `python teste.py`
+* Cuidar de como a placa suporta o treinamento usando o comando `watch nvidia-smi`
